@@ -1,0 +1,3 @@
+<h2>Search</h2>
+<form id="searchform" method="get" action="<?php bloginfo('home'); ?>/"> <input type="text" value="<?php _e('search this site...','vivathemes'); ?>" onfocus="if (this.value == '<?php _e('search this site...','vivathemes'); ?>') {this.value = '';}" onblur="if (this.value == '') {this.value = '<?php _e('search this site...','vivathemes'); ?>';}" size="18" maxlength="50" name="s" id="s" /> <input type="submit" id="searchsubmit" value="<?php _e('Search','vivathemes'); ?>" /> 
+ </form>

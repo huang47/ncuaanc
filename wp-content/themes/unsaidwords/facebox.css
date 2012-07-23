@@ -1,0 +1,108 @@
+#facebox .b {
+ }
+
+#facebox .tl {
+ }
+
+#facebox .tr {
+ }
+
+#facebox .bl {
+ 
+}
+
+#facebox .br {
+ }
+
+#facebox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 990;
+  text-align: left;
+
+}
+
+#facebox .popup {
+  position: relative;
+}
+
+#facebox table {
+  border-collapse: collapse;
+}
+
+#facebox td {
+  border-bottom: 0;
+  padding: 0;
+}
+
+#facebox .body {
+  padding: 20px;
+  padding-top: 10px;	
+  background: url(images/fcbdbg.png) no-repeat;
+  width: 260px;
+  height: 240px;
+}
+
+#facebox .loading {
+  
+}
+
+#facebox .image {
+  text-align: center;
+}
+
+#facebox img {
+  border: 0;
+  margin: 0;
+}
+
+#facebox .footer {
+  padding-top: 5px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+#facebox .footer .close {
+	background: url(images/closelabel.gif) no-repeat right;
+	padding: 5px;
+	padding-right: 17px;
+	height: 22px;
+	display: block;
+	margin-top: -20px;
+	float: right;
+	clear: left;
+}
+
+#facebox .footer a {
+	color: #fff;
+}
+
+#facebox .tl, #facebox .tr, #facebox .bl, #facebox .br {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.facebox_hide {
+  z-index:960;
+}
+
+.facebox_overlayBG {
+  background: none;
+  z-index: 950;
+}
+
+* html #facebox_overlay { /* ie6 hack */
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
