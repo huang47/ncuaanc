@@ -28,6 +28,12 @@ span.wpcf7-form-control-wrap {
 	position: relative;
 }
 
+span.wpcf7-form-control-wrap input {
+    padding-left: 4px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
 span.wpcf7-not-valid-tip {
 	position: absolute;
 	top: 20%;
