@@ -1170,3 +1170,12 @@ ul.mainnav li li.sfHover ul {
 	color:#fff;
 	margin-bottom: 5px;
 }
+
+.ads_image,
+.ads_content {
+    float: left;
+}
+
+.ads_content {
+    margin: 0 0 0 10px;
+}
