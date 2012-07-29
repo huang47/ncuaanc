@@ -97,11 +97,11 @@ code{
 /* links */
 
 a {
-	color: #00B7FF;
+	color: #333;
 }
 
 a:hover {
-	text-decoration: underline;
+    color: #00B7FF;
 }
 
 /* container */
@@ -172,17 +172,7 @@ a:hover {
 	line-height: 20px;
 	font-size: 11px;
 	font-weight: normal;
-	color: #666;
 	text-transform: uppercase;
-}
-
-.topnav li.current-menu-item a,
-.topnav li#current a,
-.topnav li.current-cat a,
-.topnav li.current_page_item a,
-.topnav li:hover a {
-	color: #804040;
-	text-decoration: none;
 }
 
 .topnav ul li{ 
@@ -245,10 +235,6 @@ ul.topnav li li.sfHover ul {
 	padding-right: 0;
 }
 
-.topnav li li a:hover {
-	text-decoration: none !important;
-}
-
 #topright {
 	width: 350px;
 	text-align: right;
@@ -256,7 +242,6 @@ ul.topnav li li.sfHover ul {
 }
 
 #topright a {
-	color: #804040;
 	font-weight: normal;
 	margin-left: 30px;
 }
@@ -272,13 +257,8 @@ ul.topnav li li.sfHover ul {
 }
 
 #loginlink a {
-	color: #766556;
 	font-size: 15px;
 	line-height: 20px;
-}
-
-#loginlink a:hover {
-	text-decoration: none;
 }
 
 #loginform {
@@ -334,7 +314,6 @@ ul.topnav li li.sfHover ul {
 
 #loginform a {
 	text-transform: uppercase;
-	color: #666;
 	font-size: 12px;
 	margin-left: 4px;
 }
@@ -389,16 +368,11 @@ ul.topnav li li.sfHover ul {
 	margin-top: 35px;
 }
 
-#logo a {
-	color: #fff;
-}
-
 #logo h1 {
 	margin-top: 3px;
 }
 
 #logo h1 a {
-	color: #666;
 	font-weight: normal;
 	font-size: 34px;
 	font-family: Lucida Grande, Lucida Sans, Arial, Helvetica;
@@ -462,7 +436,6 @@ ul.topnav li li.sfHover ul {
 	
 .post h3 a {
 	font-size: 18px; 
-	color: #333;
 	font-weight: normal;
 	text-transform: uppercase;
 	font-family: arial, helvetica, sans-serif;
@@ -470,12 +443,10 @@ ul.topnav li li.sfHover ul {
 }
 
 .post h3 a:hover {
-	text-decoration: none;
 	color: #808040;
 }
 	
 .post h2 a:hover{
-	text-decoration: none;
 	color: #cc3333;
 }
 
@@ -498,23 +469,17 @@ a.more-link {
 	color: #808040;
 	float: right;
 	font-size: 12px;
-	text-decoration: none;	
-}
-
-a.more-link:hover {
-	text-decoration: underline;
 }
 
 #audata {
 	font-size: 10px;
 	color: #333;	
-      clear: left;
+    clear: left;
 	height: 15px;
 	line-height: 15px;	
 }
 
 #audata a {
-	color: #804040;
 	margin-left: 3px;	
 	text-transform: none;
 }
@@ -532,14 +497,12 @@ a.more-link:hover {
 }
 
 .postmetadata a {
-	color:#666;
 	font-weight: normal;
 	text-transform: uppercase;
 }	
 
 .postmetadata a:hover {
 	border: none;
-	text-decoration: underline;
 }
 
 .navigation {
@@ -641,7 +604,6 @@ a.more-link:hover {
 }
 
 #sidebar ul li a {
-	color: #666;
 	font-size: 15px;
 	font-weight: bold;
 	margin-left: 3px;
@@ -690,7 +652,6 @@ a.more-link:hover {
 	font-weight: normal;
 	margin-top: 0;
 	text-transform: uppercase;
-	text-decoration: none;
 	line-height: 35px;
 	height: 35px;
 	width: 135px;
@@ -711,17 +672,6 @@ a.more-link:hover {
 
 #sidebar2 ul li a {
 	font-size: 14px;
-	color: #333;
-	text-decoration: none;
-}
-
-#sidebar2 ul li a:hover {
-	text-decoration: underline;
-}
-
-#sidebar2 a {
-	color: #333;
-	text-decoration: underline;
 }
 
 /* comments */
@@ -737,8 +687,6 @@ a.more-link:hover {
 }
 	
 #commentform a { 
-	color: #666; 
-	text-decoration: none; 
 	border-bottom: 1px dotted #666;
 	line-height: 14pt;
 }
@@ -839,11 +787,6 @@ ol.commentlist li p {
 	line-height: 14pt;
 }
 
-ol.commentlist a {
-	color:#804040;
-	text-decoration: none;
-}
-
 cite {
 	font-family: arial, verdana, tahoma;
 	font-size: 14px;
@@ -852,8 +795,6 @@ cite {
 	}
 	
 cite a {
-	color: #666; 
-	text-decoration: none; 
 	border-bottom: 1px dotted #666;
 }
 
@@ -934,14 +875,11 @@ img.alignleft {
 
 #footer a { 
 	border-bottom: dotted 1px #666;
-	color: #666;
-	text-decoration: none;
 	font-style: normal;
 }
 
 #footer a:hover {
 	color: #fff;
-	text-decoration: none;
 	border: none;
 }
 
@@ -972,7 +910,6 @@ img.alignleft {
 }
 
 #bottombar ul li a {
-	color: #666;
 	border: none;
 }
 
@@ -1031,15 +968,6 @@ img.alignleft {
 	color: #fff;
 	font-family: tahoma;
 	text-transform: uppercase;
-}
-
-.mainnav li.current-menu-item a,
-.mainnav li#current a,
-.mainnav li.current-cat a,
-.mainnav li.current_page_item a,
-.mainnav li:hover a {
-	color: #fff;
-	text-decoration: none;
 }
 
 .mainnav ul li{ 
@@ -1104,13 +1032,11 @@ ul.mainnav li li.sfHover ul {
 
 .mainnav li:hover a {
 	color: #fff;
-	text-decoration: none;
 }
 
 .mainnav li li.current-menu-item a,
 .mainnav li li.active a,
 .mainnav li li a:hover {
-	text-decoration: none !important;
 	color: #666;
 }
 
